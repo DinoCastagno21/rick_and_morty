@@ -1,0 +1,74 @@
+.container_form {
+    position: relative;
+    background-color: black;
+    width: 22em;
+    margin: auto;
+    margin-top: 6em;
+    height: 27em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+.input {
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.8rem;
+    padding: 1rem;
+}
+input::placeholder{
+    padding-left: 2px;
+}
+input:focus{
+    outline: none;
+
+}
+.button {
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem;
+    width: 5rem;
+    margin-top:1rem;
+    align-self: center;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.warning {
+    border-radius: 5px;
+    height: 2rem;
+    margin-top: 0.8rem;
+    padding: 1rem;
+    border: inset 2px red;
+}
+.danger {
+    text-align: start;
+    font-size: 0.8rem;
+    color:red;
+    margin-top: -1.5rem;
+}
+.label {
+    margin-top: 1rem;
+}
+.ojito {
+    position: relative;
+    top: -1.9rem;
+    left: 16.5rem;
+    border: none;
+    width: 2em;
+    background: transparent;
+    cursor: pointer;
+}
+.ojito_cerrado {
+    position: relative;
+    top: -1.9rem;
+    left: 16.5rem;
+    border: none;
+    width: 2em;
+    background: transparent;
+    cursor: pointer;
+}

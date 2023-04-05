@@ -1,0 +1,27 @@
+.container_about{
+    margin-top: 10rem;
+}
+.contain_img_p {
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    font-size: 3rem;
+    color: rgb(230, 217, 241);;
+    width: 100vw;
+}
+.img_profile {
+    margin: 2rem;
+    width: 35vw;
+    height: 35vh;
+
+}
+.text {
+    display: block;
+    color: aliceblue;
+    margin: 2rem;
+    letter-spacing: 1.2px;
+}

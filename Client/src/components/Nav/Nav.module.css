@@ -1,0 +1,39 @@
+.barraNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(41,5,60,0.8855917366946778) 33%,
+                rgba(118,47,145,0.8547794117647058) 100%);
+}
+.container_link{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 12em;
+    align-items: center;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+.active {
+    font-weight: bold;
+    color: rgb(237, 223, 250);
+}
+.disable {
+    font-weight: bold;
+    color: rgb(187, 153, 221);
+    text-decoration: none;
+}
+
+.img {
+    height: 9.5em;
+    width: 32.5em;
+}
+.icon-home:before {
+    content: "\e900";
+  }

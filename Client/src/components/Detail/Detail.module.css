@@ -1,0 +1,30 @@
+.contain_detail {
+    margin-top: 10em; 
+    background-color: rgba(0,0,0,0.4);
+}
+h1 {
+    font-size: 2.5rem;
+    color: aqua;
+    text-shadow: 0px 0px 4px black;
+    width: 100vh;
+    margin: auto;
+    padding: 1rem;
+}
+.datos_img {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+.contain_datos {
+    text-align: start;
+    margin-right: 4rem;
+}
+.contain_datos > h2 {
+    color: rgb(55, 105, 197);
+    margin-bottom: 1rem;
+}
+
+h2 > b {
+    color: rgb(239, 218, 243);
+    text-decoration: underline;
+}
